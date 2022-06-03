@@ -86,11 +86,16 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
         @Override
         public void onClick(View v) {
+            Log.d("onClick", "clicked");
             int position = getAdapterPosition();
             if (position != RecyclerView.NO_POSITION) {
+                Log.d("onClick", "worked?");
                 Movie movie = movies.get(position);
+
                 Intent intent = new Intent(context, MovieDetailsActivity.class);
+
                 intent.putExtra(Movie.class.getSimpleName(), Parcels.wrap(movie));
+
                 context.startActivity(intent);
             }
         }
