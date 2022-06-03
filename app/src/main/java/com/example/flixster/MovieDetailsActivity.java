@@ -26,6 +26,11 @@ public class MovieDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
 
+        // was missing this
+        tvTitle = (TextView) findViewById(R.id.tvTitle);
+        tvOverview = (TextView) findViewById(R.id.tvOverview);
+        rbVoteAverage = (RatingBar) findViewById(R.id.rbVoteAverage);//
+
         movie = (Movie) Parcels.unwrap(getIntent().getParcelableExtra(Movie.class.getSimpleName()));
         Log.d("MovieDetailsActivity", String.format("Showing details for '%s'", movie.getTitle()));
 

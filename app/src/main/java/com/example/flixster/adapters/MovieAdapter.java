@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -58,13 +59,14 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         TextView tvTitle;
         TextView tvOverview;
         ImageView ivPoster;
+//        ConstraintLayout screen;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.tvTitle);
             tvOverview = itemView.findViewById(R.id.tvOverview);
             ivPoster = itemView.findViewById(R.id.ivPoster);
-
+//            screen = itemView.findViewById(R.id.screen);
             itemView.setOnClickListener(this);
         }
 
@@ -97,7 +99,16 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                 intent.putExtra(Movie.class.getSimpleName(), Parcels.wrap(movie));
 
                 context.startActivity(intent);
+                Log.d("Onclick", "didnt crash here");
             }
+
+            /*
+            btn.setOnclickListener {
+            ...
+            do actions here (ie intent)
+            }
+            * */
+
         }
     }
 }
