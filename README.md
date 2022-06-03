@@ -30,10 +30,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='[https://imgur.com/a/jTACkRV](https://imgur.com/a/jTACkRV)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with ![proj1 copy](https://user-images.githubusercontent.com/96102973/171967655-e6ec627f-eb8e-4bb4-bc26-df2e8ecea85b.gif)
+[proj1 copy](https://user-images.githubusercontent.com/96102973/171967655-e6ec627f-eb8e-4bb4-bc26-df2e8ecea85b.gif)
 [Kap](https://getkap.co/).
 
 ## Notes
