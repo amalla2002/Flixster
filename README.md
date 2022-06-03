@@ -30,8 +30,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-[proj1 copy](https://user-images.githubusercontent.com/96102973/171967655-e6ec627f-eb8e-4bb4-bc26-df2e8ecea85b.gif)
-[Kap](https://getkap.co/).
+![proj1 copy](https://user-images.githubusercontent.com/96102973/171967704-704ff86a-1161-4ab9-9666-25d282327b0a.gif)
 
 ## Notes
 
